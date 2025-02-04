@@ -25,37 +25,5 @@ You can also directly configure your web browser to use your proxy. This depends
 For e.g. http://www.google.com
 What to submit
 Please submit the complete proxy server code (proxyserver.py) and screenshots at the client side verifying that you indeed get the web page via the proxy server.
-***********************************************************
-Submission Guidelines
-You need to submit your homework in a single zip file as follows:
-• The zip file and (the root folder inside) should be named using your last name, first name,
-and the assignment number,
-all separated by a dash (‘-‘)
-e.g. lastname-firstname-assignment1.zip
-• The zip file should contain your code corresponding to Part A and Part B. Please be sure
-to put code in the root folder rather than in separate folders. Provide sufficient comments
-in your code.
-• Include the screenshots for Part A and Part B in a single PDF file, and name it
-‘clients_screenshots’.
-• Directory structure you can follow:
-Files inside ‘lastname-firstname-assignment1’:
-• webserver.py
-• proxyserver.py
-• clients_screenshots.pdf
-• .html file for part A
-• README
-• Flask and SimpleHTTPServer are NOT allowed. Please use socket programming only. You
-can use the server code discussed in class as a starting point.
-• You cannot use urllib.parse library to parse URLs
-• You can handle only HTTP requests. No need to handle HTTPS requests. Some websites
-will only support HTTPS. You may need to find one that uses HTTP.
-• You can try the following test webpages, they should work with http1.0.
-• http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
-• http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
-• http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
-• http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file5.html
-• You should provide a README file describing:
-• Any external libraries used.
-• Instructions on how to run your programs.
-• Webpages that your code successfully works for.
+
     
